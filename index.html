@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
+    <title>NFT Card Preview</title>
+  </head>
+  <body>
+    <div class="nft-card">
+      <!-- Images which should animate when hover -->
+      <section class="images">
+        <div class="rect"></div>
+        <a href="#" target="_blank"
+          ><img
+            class="equilibrium"
+            src="./assets/image-equilibrium.jpg"
+            alt="Equilibrium image" />
+          <img class="eye" src="./assets/Shape.png" alt="Eye icon"
+        /></a>
+      </section>
+      <!-- Mainc info section is where output is card's name, captiom, price and date. -->
+      <section class="main-info">
+        <a href="#" target="_blank"><h1>Equilibrium #3429</h1></a>
+        <p id="caption">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="price-date">
+          <div>
+            <img
+              class="eth-icon"
+              src="./assets/icon-ethereum.svg"
+              alt="Eth icon"
+            />
+            <p id="price-info">0.041 ETH</p>
+          </div>
+          <div>
+            <img
+              class="clock-icon"
+              src="./assets/icon-clock.svg"
+              alt="clock icon"
+            />
+            <p id="date-info">3 days left</p>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <!-- There you can see information about creator of that NFT card -->
+      <section class="creator-info">
+        <img
+          class="creator-avatar"
+          src="./assets/image-avatar.png"
+          alt="creator-picture"
+        />
+        <p id="p1">Creation of</p>
+        <a href="#" target="_blank"><p id="creator-name">Jules Wyvern</p></a>
+      </section>
+    </div>
+    <footer>
+      <p>Challenge by Frontend Mentor. Coded by <p id="name">Moses.</p></p>
+    </footer>
+  </body>
+</html>
